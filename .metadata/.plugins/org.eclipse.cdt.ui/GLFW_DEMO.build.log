@@ -1,0 +1,10 @@
+15:08:56 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+
+15:08:58 Build Finished (took 1s.568ms)
+

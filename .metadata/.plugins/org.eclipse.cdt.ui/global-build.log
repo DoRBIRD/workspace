@@ -1,0 +1,2932 @@
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for Default C++
+20:42:41 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o vec3.o "..\\vec3.cpp" 
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for GLFW_DEMO
+20:43:36 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+21:16:26 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:30: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,0);
+                              ^
+..\main.cpp:15:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3(a/2,-b/2,0);
+                             ^
+..\main.cpp:16:28: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3(a/2,b/2,0);
+                            ^
+..\main.cpp:17:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2,b/2,0);
+                             ^
+..\main.cpp:18:24: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(0,0,h);
+                        ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:18:45 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:19:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+Info: Nothing to build for Default C++
+21:19:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:19:20 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:19:33 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+Info: Nothing to build for Default C++
+21:20:13 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:21:26 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:21:37 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,0);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,0);
+                    ^
+21:22:40 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+21:24:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+21:25:06 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:26:01 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:28:11 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:28:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:28:36 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:29:07 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(const Vec3&, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+21:29:12 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+21:29:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:30:43 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:30:56 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:31:07 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:31:42 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:31:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:31:58 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+Info: Nothing to build for Default C++
+21:51:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:17: warning: left operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                 ^
+..\main.cpp:19:19: warning: right operand of comma operator has no effect [-Wunused-value]
+  Vec3 nomral=(0,0,1);
+                   ^
+..\main.cpp:19:20: error: conversion from 'int' to non-scalar type 'Vec3' requested
+  Vec3 nomral=(0,0,1);
+                    ^
+21:51:55 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void Preview()':
+..\main.cpp:197:35: error: 'DrawPyramid' was not declared in this scope
+   DrawPyramid(Vec3( 0, 5, 0),2,2,3);
+                                   ^
+21:52:32 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+21:52:43 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+21:53:08 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+Info: Nothing to build for Default C++
+21:53:20 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+Info: Nothing to build for Default C++
+21:53:22 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+Info: Nothing to build for Default C++
+22:00:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+14:31:49 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+Info: Nothing to build for Default C++
+14:32:09 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawPyramid(Vec3, double, double, double)':
+..\main.cpp:14:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P1=new Vec3(-a/2,-b/2,  0);
+                                ^
+..\main.cpp:15:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P2=new Vec3( a/2,-b/2,  0);
+                                ^
+..\main.cpp:16:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P3=new Vec3( a/2, b/2,  0);
+                                ^
+..\main.cpp:17:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P4=new Vec3(-a/2, b/2,  0);
+                                ^
+..\main.cpp:18:32: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+  Vec3 P5=new Vec3(   0,   0,  h);
+                                ^
+..\main.cpp:19:29: error: new cannot be applied to a reference type
+  Vec3 normal=new Vec3&(0,0,1);
+                             ^
+..\main.cpp:19:29: error: conversion from 'Vec3*' to non-scalar type 'Vec3' requested
+14:33:13 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:10:15: warning: 'alpha_' defined but not used [-Wunused-variable]
+ static double alpha_ = 0;
+               ^
+..\main.cpp:14:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+14:38:32 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:10:15: warning: 'alpha_' defined but not used [-Wunused-variable]
+ static double alpha_ = 0;
+               ^
+..\main.cpp:12:15: warning: 'gamma' defined but not used [-Wunused-variable]
+ static double gamma = 0;
+               ^
+..\main.cpp:13:15: warning: 'delta_' defined but not used [-Wunused-variable]
+ static double delta_ = 0;
+               ^
+..\main.cpp:14:15: warning: 'epsilon_' defined but not used [-Wunused-variable]
+ static double epsilon_ = 0;
+               ^
+..\main.cpp:17:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+14:41:29 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+14:48:30 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:48:42 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:54:13 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:55:28 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:55:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:56:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:56:14 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:59:28 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+15:00:27 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:538:17: error: 'PI' was not declared in this scope
+  for(int i=0;i<=PI)
+                 ^
+..\main.cpp:538:19: error: expected ';' before ')' token
+  for(int i=0;i<=PI)
+                   ^
+..\main.cpp:539:1: error: expected primary-expression before '}' token
+ }
+ ^
+..\main.cpp:539:1: error: expected ';' before '}' token
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:580:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_9)zetta-=5;
+                          ^
+..\main.cpp:581:26: error: 'zetta' was not declared in this scope
+    if (key == GLFW_KEY_0)zetta+=5;
+                          ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+15:00:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:539:9: warning: unused variable 'a1' [-Wunused-variable]
+  double a1=2* M_PI /res;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+15:01:00 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:539:9: warning: unused variable 'a1' [-Wunused-variable]
+  double a1=2* M_PI /res;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:02:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:539:9: warning: unused variable 'a1' [-Wunused-variable]
+  double a1=2* M_PI /res;
+         ^
+..\main.cpp:540:9: warning: unused variable 'tempX' [-Wunused-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: unused variable 'tempY' [-Wunused-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+15:15:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:15:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:16:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:17:52 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:18:00 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:18:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:19:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:20:20 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:23:18 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:24:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:24:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:26:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:27:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:540:9: warning: variable 'tempX' set but not used [-Wunused-but-set-variable]
+  double tempX;
+         ^
+..\main.cpp:541:9: warning: variable 'tempY' set but not used [-Wunused-but-set-variable]
+  double tempY;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+15:33:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:542:3: error: 'tempX' was not declared in this scope
+   tempX=radius*sin(a1*i);
+   ^
+..\main.cpp:543:3: error: 'tempY' was not declared in this scope
+   tempY=radius*cos(a1*1);
+   ^
+..\main.cpp:547:125: error: no matching function for call to 'Vec3::Vec3(double, double, int, Vec3)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1)),0,Vec3(radius*sin(a1*(i+2)),radius*cos(a1*(i+2)),0,Vec3(0,0,0));
+                                                                                                                             ^
+..\main.cpp:547:125: note: candidates are:
+In file included from ..\main.cpp:8:0:
+..\vec3.hpp:39:2: note: Vec3::Vec3(double, double, double)
+  Vec3(double x, double y, double z);
+  ^
+..\vec3.hpp:39:2: note:   candidate expects 3 arguments, 4 provided
+..\vec3.hpp:38:11: note: Vec3::Vec3(FILE*)
+  explicit Vec3(FILE *fp);
+           ^
+..\vec3.hpp:38:11: note:   candidate expects 1 argument, 4 provided
+..\vec3.hpp:37:11: note: Vec3::Vec3(const double*)
+  explicit Vec3(const double* x);
+           ^
+..\vec3.hpp:37:11: note:   candidate expects 1 argument, 4 provided
+..\vec3.hpp:35:2: note: Vec3::Vec3(const Vec3&)
+  Vec3(const Vec3 &a);
+  ^
+..\vec3.hpp:35:2: note:   candidate expects 1 argument, 4 provided
+..\vec3.hpp:34:2: note: Vec3::Vec3()
+  Vec3();
+  ^
+..\vec3.hpp:34:2: note:   candidate expects 0 arguments, 4 provided
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+15:34:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:542:3: error: 'tempX' was not declared in this scope
+   tempX=radius*sin(a1*i);
+   ^
+..\main.cpp:543:3: error: 'tempY' was not declared in this scope
+   tempY=radius*cos(a1*1);
+   ^
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+15:34:34 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:34:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:35:33 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:35:43 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:36:08 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:37:18 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:37:49 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:38:24 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:39:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:41:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:41:40 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:42:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:545:113: error: too many arguments to function 'double cos(double)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),radius*cos(a1*(i+0)),0),Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                 ^
+In file included from ..\main.cpp:6:0:
+c:\mingw\include\math.h:149:24: note: declared here
+ _CRTIMP double __cdecl cos (double);
+                        ^
+..\main.cpp:545:126: error: no matching function for call to 'Vec3::Vec3(double, double, Vec3)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),radius*cos(a1*(i+0)),0),Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                              ^
+..\main.cpp:545:126: note: candidates are:
+In file included from ..\main.cpp:8:0:
+..\vec3.hpp:39:2: note: Vec3::Vec3(double, double, double)
+  Vec3(double x, double y, double z);
+  ^
+..\vec3.hpp:39:2: note:   no known conversion for argument 3 from 'Vec3' to 'double'
+..\vec3.hpp:38:11: note: Vec3::Vec3(FILE*)
+  explicit Vec3(FILE *fp);
+           ^
+..\vec3.hpp:38:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:37:11: note: Vec3::Vec3(const double*)
+  explicit Vec3(const double* x);
+           ^
+..\vec3.hpp:37:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:35:2: note: Vec3::Vec3(const Vec3&)
+  Vec3(const Vec3 &a);
+  ^
+..\vec3.hpp:35:2: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:34:2: note: Vec3::Vec3()
+  Vec3();
+  ^
+..\vec3.hpp:34:2: note:   candidate expects 0 arguments, 3 provided
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+15:43:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:545:113: error: too many arguments to function 'double cos(double)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),radius*cos(a1*(i+0)),0),Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                 ^
+In file included from ..\main.cpp:6:0:
+c:\mingw\include\math.h:149:24: note: declared here
+ _CRTIMP double __cdecl cos (double);
+                        ^
+..\main.cpp:545:126: error: no matching function for call to 'Vec3::Vec3(double, double, Vec3)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),radius*cos(a1*(i+0)),0),Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                              ^
+..\main.cpp:545:126: note: candidates are:
+In file included from ..\main.cpp:8:0:
+..\vec3.hpp:39:2: note: Vec3::Vec3(double, double, double)
+  Vec3(double x, double y, double z);
+  ^
+..\vec3.hpp:39:2: note:   no known conversion for argument 3 from 'Vec3' to 'double'
+..\vec3.hpp:38:11: note: Vec3::Vec3(FILE*)
+  explicit Vec3(FILE *fp);
+           ^
+..\vec3.hpp:38:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:37:11: note: Vec3::Vec3(const double*)
+  explicit Vec3(const double* x);
+           ^
+..\vec3.hpp:37:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:35:2: note: Vec3::Vec3(const Vec3&)
+  Vec3(const Vec3 &a);
+  ^
+..\vec3.hpp:35:2: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:34:2: note: Vec3::Vec3()
+  Vec3();
+  ^
+..\vec3.hpp:34:2: note:   candidate expects 0 arguments, 3 provided
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+15:45:30 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawZylinder(double, double, double)':
+..\main.cpp:545:121: error: too many arguments to function 'double cos(double)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),  radius*cos(a1*(i+0)),  0),    Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                         ^
+In file included from ..\main.cpp:6:0:
+c:\mingw\include\math.h:149:24: note: declared here
+ _CRTIMP double __cdecl cos (double);
+                        ^
+..\main.cpp:545:134: error: no matching function for call to 'Vec3::Vec3(double, double, Vec3)'
+   DrawTriangle(Vec3(radius*sin(a1*(i+0)),  radius*cos(a1*(i+0)),  0),    Vec3(radius*sin(a1*(i+1)),radius*cos(a1*(i+1),0),Vec3(0,0,0));
+                                                                                                                                      ^
+..\main.cpp:545:134: note: candidates are:
+In file included from ..\main.cpp:8:0:
+..\vec3.hpp:39:2: note: Vec3::Vec3(double, double, double)
+  Vec3(double x, double y, double z);
+  ^
+..\vec3.hpp:39:2: note:   no known conversion for argument 3 from 'Vec3' to 'double'
+..\vec3.hpp:38:11: note: Vec3::Vec3(FILE*)
+  explicit Vec3(FILE *fp);
+           ^
+..\vec3.hpp:38:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:37:11: note: Vec3::Vec3(const double*)
+  explicit Vec3(const double* x);
+           ^
+..\vec3.hpp:37:11: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:35:2: note: Vec3::Vec3(const Vec3&)
+  Vec3(const Vec3 &a);
+  ^
+..\vec3.hpp:35:2: note:   candidate expects 1 argument, 3 provided
+..\vec3.hpp:34:2: note: Vec3::Vec3()
+  Vec3();
+  ^
+..\vec3.hpp:34:2: note:   candidate expects 0 arguments, 3 provided
+..\main.cpp: At global scope:
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+15:46:09 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:46:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:47:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:47:40 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:48:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:48:51 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:51:38 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:57:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:58:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+16:14:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:595:16: error: invalid operands of types 'double' and 'void*' to binary 'operator>='
+  if(r<=1&&g>=&&b<=0){
+                ^
+..\main.cpp:600:13: error: expected ';' before ':' token
+   g-=schritt:
+             ^
+..\main.cpp:595:16: error: label 'b' used but not defined
+  if(r<=1&&g>=&&b<=0){
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+16:15:14 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:577:16: error: invalid operands of types 'double' and 'void*' to binary 'operator>='
+  if(r<=1&&g>=&&b<=0){
+                ^
+..\main.cpp:577:16: error: label 'b' used but not defined
+..\main.cpp: In function 'void Preview()':
+..\main.cpp:602:13: error: 'lightshow' was not declared in this scope
+   lightshow();
+             ^
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:16:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:577:16: error: invalid operands of types 'double' and 'void*' to binary 'operator>='
+  if(r<=1&&g>=&&b<=0){
+                ^
+..\main.cpp:577:16: error: label 'b' used but not defined
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:16:34 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:577:16: error: invalid operands of types 'double' and 'void*' to binary 'operator>='
+  if(r<=1&&g>=&&b<=0){
+                ^
+..\main.cpp:577:16: error: label 'b' used but not defined
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:16:57 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:556:2: warning: 'r' is used uninitialized in this function [-Wuninitialized]
+  if(r<1&&g==0&&b==0){
+  ^
+..\main.cpp:556:8: warning: 'g' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if(r<1&&g==0&&b==0){
+        ^
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:17:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:17:58 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+16:27:45 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:571:6: error: redefinition of 'void lightShow()'
+ void lightShow(){
+      ^
+..\main.cpp:553:6: error: 'void lightShow()' previously defined here
+ void lightShow(){
+      ^
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+16:28:24 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:570:6: error: redefinition of 'void lightShow()'
+ void lightShow(){
+      ^
+..\main.cpp:553:6: error: 'void lightShow()' previously defined here
+ void lightShow(){
+      ^
+..\main.cpp: At global scope:
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:28:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+Info: Nothing to build for GLFW_DEMO
+16:38:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:38:36 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:20:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:41:56 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:1: error: 'staticdouble' does not name a type
+ staticdouble g=0;
+ ^
+..\main.cpp:20:1: error: 'staticdouble' does not name a type
+ staticdouble b=0;
+ ^
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:564:21: error: 'g' was not declared in this scope
+   if(rngDir==1&&r<1)g+=amount;else if(rngDir==0&&r>0)g-=amount;
+                     ^
+..\main.cpp:564:54: error: 'g' was not declared in this scope
+   if(rngDir==1&&r<1)g+=amount;else if(rngDir==0&&r>0)g-=amount;
+                                                      ^
+..\main.cpp:566:21: error: 'b' was not declared in this scope
+   if(rngDir==1&&r<1)b+=amount;else if(rngDir==0&&r>0)b-=amount;
+                     ^
+..\main.cpp:566:54: error: 'b' was not declared in this scope
+   if(rngDir==1&&r<1)b+=amount;else if(rngDir==0&&r>0)b-=amount;
+                                                      ^
+..\main.cpp:569:26: error: 'g' was not declared in this scope
+   SetMaterialColor(3, r, g, b);
+                          ^
+..\main.cpp:569:29: error: 'b' was not declared in this scope
+   SetMaterialColor(3, r, g, b);
+                             ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+16:42:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:19:1: error: 'staticdouble' does not name a type
+ staticdouble g=0;
+ ^
+..\main.cpp:20:1: error: 'staticdouble' does not name a type
+ staticdouble b=0;
+ ^
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:564:21: error: 'g' was not declared in this scope
+   if(rngDir==1&&r<1)g+=amount;else if(rngDir==0&&r>0)g-=amount;
+                     ^
+..\main.cpp:564:54: error: 'g' was not declared in this scope
+   if(rngDir==1&&r<1)g+=amount;else if(rngDir==0&&r>0)g-=amount;
+                                                      ^
+..\main.cpp:566:21: error: 'b' was not declared in this scope
+   if(rngDir==1&&r<1)b+=amount;else if(rngDir==0&&r>0)b-=amount;
+                     ^
+..\main.cpp:566:54: error: 'b' was not declared in this scope
+   if(rngDir==1&&r<1)b+=amount;else if(rngDir==0&&r>0)b-=amount;
+                                                      ^
+..\main.cpp:569:26: error: 'g' was not declared in this scope
+   SetMaterialColor(3, r, g, b);
+                          ^
+..\main.cpp:569:29: error: 'b' was not declared in this scope
+   SetMaterialColor(3, r, g, b);
+                             ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:42:15 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:42:41 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:43:28 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:43:47 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:44:28 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:45:08 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:45:30 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:47:16 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for GLFW_DEMO
+16:49:51 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:50:54 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:51:03 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:51:37 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:53:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+16:54:41 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:55:15 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:573:16: error: expected primary-expression before '<=' token
+  if(r<1&&g<=0&&<=0){
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:56:19 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void lightShow()':
+..\main.cpp:573:16: error: expected primary-expression before '<=' token
+  if(r<1&&g<=0&&<=schritt){
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+16:56:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:57:10 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:57:44 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+16:59:25 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:00:06 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+17:01:25 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:01:39 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:02:32 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:11:15 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:12:35 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:13:14 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:14:14 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:15:07 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:15:13 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:15:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:16:53 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:59 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:17:22 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:17:48 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:18:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:18:26 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:20:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:23:24 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:23:48 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:27:16 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane(Vec3)':
+..\main.cpp:562:9: error: redeclaration of 'double firstArmLenght'
+  double firstArmLenght=20;
+         ^
+..\main.cpp:559:9: error: 'double firstArmLenght' previously declared here
+  double firstArmLenght=20;
+         ^
+..\main.cpp:561:9: warning: unused variable 'thirdArmLenght' [-Wunused-variable]
+  double thirdArmLenght=20;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+17:28:10 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane(Vec3)':
+..\main.cpp:562:9: error: redeclaration of 'double firstArmLenght'
+  double firstArmLenght=20;
+         ^
+..\main.cpp:559:9: error: 'double firstArmLenght' previously declared here
+  double firstArmLenght=20;
+         ^
+..\main.cpp:561:9: warning: unused variable 'thirdArmLenght' [-Wunused-variable]
+  double thirdArmLenght=20;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+17:30:36 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane(Vec3)':
+..\main.cpp:562:9: error: redeclaration of 'double firstArmLenght'
+  double firstArmLenght=20;
+         ^
+..\main.cpp:559:9: error: 'double firstArmLenght' previously declared here
+  double firstArmLenght=20;
+         ^
+..\main.cpp:561:9: warning: unused variable 'thirdArmLenght' [-Wunused-variable]
+  double thirdArmLenght=20;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+17:30:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:31:38 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:32:15 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:32:50 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:33:13 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:34:20 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:37:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for Default C++
+17:39:31 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane(Vec3)':
+..\main.cpp:576:22: error: 'seitenlaenge' was not declared in this scope
+  glTranslated(5,sqrt(seitenlaenge*seitenlaenge-(seitenlaenge/2)*(seitenlaenge/2));,secondArmLenght);
+                      ^
+..\main.cpp:576:83: error: expected primary-expression before ',' token
+  glTranslated(5,sqrt(seitenlaenge*seitenlaenge-(seitenlaenge/2)*(seitenlaenge/2));,secondArmLenght);
+                                                                                   ^
+..\main.cpp:576:99: error: expected ';' before ')' token
+  glTranslated(5,sqrt(seitenlaenge*seitenlaenge-(seitenlaenge/2)*(seitenlaenge/2));,secondArmLenght);
+                                                                                                   ^
+..\main.cpp:561:9: warning: unused variable 'greifer' [-Wunused-variable]
+  double greifer=10;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+17:40:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+Info: Nothing to build for GLFW_DEMO
+Info: Nothing to build for GLFW_DEMO
+17:41:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:41:40 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:42:58 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:43:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:43:41 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:44:23 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:45:27 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:48:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:48:38 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:48:49 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:49:09 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+17:50:38 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:15:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:24:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:09:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:22:15 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double* matMult(double (*)[3], double (*)[3])':
+..\main.cpp:72:9: error: cannot convert 'double (*)[3]' to 'double*' in return
+  return result;
+         ^
+..\main.cpp:73:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:25:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& fillarr(double (*)[3], double (*)[3])':
+..\main.cpp:73:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:74:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:26:44 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& fillarr(double (*)[3], double (*)[3])':
+..\main.cpp:73:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:74:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:26:55 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:76:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:29:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:76:10: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double*'
+  return *result;
+          ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:29:14 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:76:10: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3][3]'
+  return &result;
+          ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:30:44 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:66:21: error: declaration of 'result' as array of references
+  double &result[3][3];
+                     ^
+..\main.cpp:76:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:31:04 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:66:32: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  double &result=new double[3][3];
+                                ^
+..\main.cpp:69:27: error: invalid types 'double[int]' for array subscript
+                   result[i][j]=0;
+                           ^
+..\main.cpp:71:35: error: invalid types 'double[int]' for array subscript
+                           result[i][j] +=mat1[i][k] *mat2[k][j];
+                                   ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:31:27 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:66:32: error: cannot convert 'double (*)[3]' to 'double*' in initialization
+  double *result=new double[3][3];
+                                ^
+..\main.cpp:69:30: error: invalid types 'double[int]' for array subscript
+                   result[i][j]=0;
+                              ^
+..\main.cpp:71:38: error: invalid types 'double[int]' for array subscript
+                           result[i][j] +=mat1[i][k] *mat2[k][j];
+                                      ^
+..\main.cpp:76:9: error: invalid initialization of reference of type 'double&' from expression of type 'double*'
+  return result;
+         ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:31:42 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:76:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+Info: Nothing to build for Default C++
+14:32:17 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'double& matMult(double (*)[3], double (*)[3])':
+..\main.cpp:76:9: error: invalid initialization of non-const reference of type 'double&' from an rvalue of type 'double (*)[3]'
+  return result;
+         ^
+..\main.cpp:77:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:32:22 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:65:7: error: expected unqualified-id before '[' token
+ double[3][3] matMult(double mat1[3][3],double mat2[3][3]) {
+       ^
+..\main.cpp:13:15: warning: 'alpha_' defined but not used [-Wunused-variable]
+ static double alpha_ = 0;
+               ^
+..\main.cpp:14:15: warning: 'beta_' defined but not used [-Wunused-variable]
+ static double beta_ = 0;
+               ^
+..\main.cpp:15:15: warning: 'gamma_' defined but not used [-Wunused-variable]
+ static double gamma_= 0;
+               ^
+..\main.cpp:16:15: warning: 'delta_' defined but not used [-Wunused-variable]
+ static double delta_ = 0;
+               ^
+..\main.cpp:17:15: warning: 'epsilon_' defined but not used [-Wunused-variable]
+ static double epsilon_ = 0;
+               ^
+..\main.cpp:18:15: warning: 'zetta_' defined but not used [-Wunused-variable]
+ static double zetta_ = 0;
+               ^
+..\main.cpp:19:15: warning: 'bla_' defined but not used [-Wunused-variable]
+ static double bla_ = 0;
+               ^
+..\main.cpp:20:15: warning: 'dt_' defined but not used [-Wunused-variable]
+ static double dt_ = 1;
+               ^
+..\main.cpp:21:15: warning: 'angleXAxis_' defined but not used [-Wunused-variable]
+ static double angleXAxis_=20;
+               ^
+..\main.cpp:22:15: warning: 'angleYAxis_' defined but not used [-Wunused-variable]
+ static double angleYAxis_=45;
+               ^
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+..\main.cpp:24:15: warning: 'posX_' defined but not used [-Wunused-variable]
+ static double posX_=0;
+               ^
+..\main.cpp:25:15: warning: 'posY_' defined but not used [-Wunused-variable]
+ static double posY_=0;
+               ^
+..\main.cpp:26:15: warning: 'posZ_' defined but not used [-Wunused-variable]
+ static double posZ_=0;
+               ^
+..\main.cpp:27:15: warning: 'posX2_' defined but not used [-Wunused-variable]
+ static double posX2_=0;
+               ^
+..\main.cpp:28:15: warning: 'posY2_' defined but not used [-Wunused-variable]
+ static double posY2_=0;
+               ^
+..\main.cpp:29:15: warning: 'posZ2_' defined but not used [-Wunused-variable]
+ static double posZ2_=0;
+               ^
+..\main.cpp:31:15: warning: 'a' defined but not used [-Wunused-variable]
+ static double a[2] = {80,90};
+               ^
+..\main.cpp:36:15: warning: 'J' defined but not used [-Wunused-variable]
+ static double J[3][3];
+               ^
+..\main.cpp:37:15: warning: 'JTrans' defined but not used [-Wunused-variable]
+ static double JTrans[3][3];
+               ^
+..\main.cpp:38:15: warning: 'JTemp' defined but not used [-Wunused-variable]
+ static double JTemp[3][3];
+               ^
+..\main.cpp:39:15: warning: 'JTemp2' defined but not used [-Wunused-variable]
+ static double JTemp2[3][3];
+               ^
+..\main.cpp:40:15: warning: 'result' defined but not used [-Wunused-variable]
+ static double result[3][3];
+               ^
+..\main.cpp:53:15: warning: 'window_width_' defined but not used [-Wunused-variable]
+ static double window_width_ = 1000;
+               ^
+..\main.cpp:54:15: warning: 'window_height_' defined but not used [-Wunused-variable]
+ static double window_height_ =1000;
+               ^
+14:34:05 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:35:25 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:60:25: error: declaration of 'arr' as multidimensional array must have bounds for all dimensions except the first
+ int * fillarr(int arr[][]){
+                         ^
+..\main.cpp: In function 'int* fillarr(...)':
+..\main.cpp:62:12: error: 'arr' was not declared in this scope
+     return arr;
+            ^
+..\main.cpp:63:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:46:24 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: In function 'void IK()':
+..\main.cpp:892:35: error: 'p' was not declared in this scope
+        dtheta.p[i]+=JTemp2[j][i]*(p-f).p[j]
+                                   ^
+..\main.cpp:893:7: error: expected ';' before '}' token
+       }
+       ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:47:27 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: In function 'void IK()':
+..\main.cpp:894:7: error: expected ';' before '}' token
+       }
+       ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+14:47:40 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:48:36 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:49:20 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+14:57:43 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:06:02 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void DrawKrane()':
+..\main.cpp:622:16: warning: unused variable 'thirdArmLength' [-Wunused-variable]
+         double thirdArmLength=5;
+                ^
+..\main.cpp:623:16: warning: unused variable 'greifer' [-Wunused-variable]
+         double greifer=3;
+                ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:07:57 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:08:37 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+15:08:56 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
