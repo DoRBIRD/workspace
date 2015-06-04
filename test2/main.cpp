@@ -9,24 +9,12 @@
 static double alpha_ = 0;
 static double window_width_ = 1024;
 static double window_height_ = 768;
-double speed=1;
 
-
-void DrawPyramid(const Vec3& P,double a, double b,double h){
-  Vec3 normal,p1,p2,p3,p4,p5;
-
-  glBegin(GL_TRIANGLES);            // Start Drawing A Triangle
-  glNormal3f( 0.0,  0.0, 1.0);			// Set Top Point Of Triangle To Red
-  glVertex3f( 0.0,  2.0, 0.0);      // First Point Of The Triangle
-  glVertex3f(-2.0, -2.0, 0.0);      // Second Point Of The Triangle
-  glVertex3f( 2.0, -2.0, 0.0);      // Third Point Of The Triangle
-  glEnd();
-}
 
 // draw a sphere composed of triangles
 void DrawSphere(const Vec3& ctr, double r){
   int     i, j,
-          n1 = 20, n2 = 60;
+          n1 = 6, n2 = 12;
   Vec3    normal, v1;
   double  a1, a1d = M_PI / n1,
           a2, a2d = M_PI / n2,
@@ -129,16 +117,7 @@ void InitLighting() {
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
   glOrtho(-15, 15, -10, 10, -20, 20);
-//  double n=10;
-//  double f=20;
-//  double a=1;
-//  double fov=180;
-//  double l=-1*n*tan((a*fov)/2);
-//  double r=f*tan((a*fov)/2);
-//  double b=-1*n*tan(fov/2);
-//  double t=f*tan(fov/2);
-//
-//  glFrustum(l, r, b, t, n, f);
+
 
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();
@@ -147,19 +126,14 @@ void InitLighting() {
 
 
 // draw the entire scene
-void Preview(GLFWwindow* window) {
+void Preview() {
   glMatrixMode(GL_MODELVIEW);
   glLoadIdentity();						    // Reset The Current Modelview Matrix
   glTranslated(0, 0, -10.0);      // Move 10 units backwards in z,
                                   // since camera is at origin
-  if (glfwGetKey(window, GLFW_KEY_UP ) == GLFW_PRESS){
-      speed=1;
-  }
-  else{
-	  speed=0.1;
-  }
   glRotated(alpha_, 0, 3, 1);
-  alpha_ += speed;
+  alpha_ += .1;
+
   SetMaterialColor(3, 1, 0, 0);
   DrawSphere(Vec3( 5, 0, 0), 2);
   SetMaterialColor(3, 1, 1, 0);
@@ -205,7 +179,7 @@ int main() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     // draw the scene
-    Preview(window);
+    Preview();
 
     // make it appear (before this, it's hidden in the rear buffer)
     glfwSwapBuffers(window);
