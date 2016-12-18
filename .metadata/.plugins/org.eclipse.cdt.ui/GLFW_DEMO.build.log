@@ -1,10 +1,17 @@
-15:08:56 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
+17:17:32 **** Incremental Build of configuration Debug for project GLFW_DEMO ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
-..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
- static double angleZAxis_=0;
-               ^
+..\main.cpp: In function 'void Preview()':
+..\main.cpp:361:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     if (counter<Punkte.size()-1 && !richtung){
+                               ^
+..\main.cpp: In function 'void key_callback(GLFWwindow*, int, int, int, int)':
+..\main.cpp:412:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   if(counter<Punkte.size()-1){
+                            ^
 g++ -o GLFW_DEMO.exe vec3.o main.o -lglfw3dll -lopengl32 
+c:/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: cannot open output file GLFW_DEMO.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
 
-15:08:58 Build Finished (took 1s.568ms)
+17:17:33 Build Finished (took 1s.188ms)
 

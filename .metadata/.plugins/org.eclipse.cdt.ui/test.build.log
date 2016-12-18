@@ -1,0 +1,40 @@
+23:46:14 **** Incremental Build of configuration Debug for project test ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'void wandCollision(double, double)':
+..\main.cpp:681:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < Kugel.size(); i++){
+                              ^
+..\main.cpp: In function 'void kugelnBewegen()':
+..\main.cpp:725:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < Kugel.size(); i++){
+                              ^
+..\main.cpp: In function 'void kugelnZeichnen()':
+..\main.cpp:730:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < Kugel.size(); i++){
+                              ^
+..\main.cpp: In function 'void kugelCollision()':
+..\main.cpp:735:30: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0; i < Kugel.size(); i++){
+                              ^
+..\main.cpp:736:31: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for(int j=0; j < Kugel.size(); j++){
+                               ^
+..\main.cpp: In function 'void DrawBillardtisch()':
+..\main.cpp:757:9: warning: unused variable 'kugelradius' [-Wunused-variable]
+  double kugelradius=1+epsilon_;
+         ^
+..\main.cpp:758:9: warning: unused variable 'scaling' [-Wunused-variable]
+  double scaling=0.0001;
+         ^
+..\main.cpp:759:9: warning: unused variable 'friction' [-Wunused-variable]
+  double friction=1-0.0000;
+         ^
+..\main.cpp: At global scope:
+..\main.cpp:23:15: warning: 'angleZAxis_' defined but not used [-Wunused-variable]
+ static double angleZAxis_=0;
+               ^
+g++ -o test.exe vec3.o main.o -lglfw3dll -lopengl32 
+
+23:46:16 Build Finished (took 2s.24ms)
+
